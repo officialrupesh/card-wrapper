@@ -1,0 +1,159 @@
+<style>   
+        .gradient-title { 
+            background: linear-gradient(80.81deg, #1e4fad -8.36%, #256788 5.44%, #266e7e 33.03%, #2a7b6a 56.28%, #38ad1e 67.32%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: initial;
+            display: block;
+        }
+        .title {
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 49.4px;
+            color: #000;
+        }
+        
+        .bg-gradient-blue{
+            padding:45px;
+        }
+
+        /*expert section card*/
+
+        .member-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            height:100%;
+        }
+
+        .member {
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+            padding: 20px;
+            background: #0c6eca;
+            border: 1px solid #d9dee5;
+            border-radius: 16px;
+            max-width: 350px;
+            min-width:350px;
+            height:100%;
+        }
+
+        .img-fix-height{
+            max-height:300px;
+            width:100%;
+            object-fit:cover;
+        }
+
+
+        .hr-gradient {
+            width: 100%;
+            position:relative;
+            height: 2px;
+            background: linear-gradient(90deg, #e6e6e6 30%, #e6e6e6 0%);
+            border:none;
+        }
+        .hr-gradient::before {
+        
+            content: '';
+            height: 100%;
+            width: 100px;
+            background: #7fc246;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            top: 50%;
+        
+        }
+
+        .title {
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 49.4px;
+            color: #000;
+        }
+        
+        .company-name{
+            font-weight: bold;
+        }
+        /*expert section card ends*/
+
+</style>
+
+<!--expert card section-->
+
+    <section class="experts-details">
+        <div class="our-experts">
+            <h2 class="title gradient-title mbottom-25 text-center">Our Guest Experts</h2>
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2 ">
+                    <div class="row d-flex" style="justify-content:center;">
+
+                        <div class="col-lg-6">
+
+                            <div class="member-section">
+                                <div class="member text-center">
+                                    <div>
+                                        <img src="https://cdn.ymaws.com/staging-scip.site-ym.com/resource/resmgr/assets/members/photo_-_harvey_ranola__003_.jpg" class="img-responsive img-fix-height" alt="Harvey Ranola">
+                                        <h3 class="text-center text-white mtop-20">
+                                            <strong>Harvey Rañola</strong>
+                                        </h3>
+                                        <p class="text-center text-white fs-16">
+                                            <a href="https://www.linkedin.com/in/harveyranola/">Global Head of Media Intelligence</a>
+                                            <br>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <hr class="hr-gradient">
+                                        <p class="company-name text-white">NetBase Quid</p>
+                                        <!-- Change data-index accordingly -->
+                                        <button class="btn btn-scip btn-secure mbottom-0 scip-modal-btn" data-index="0"> WATCH HARVEY 
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="member-section">
+                                <div class="member text-center">
+                                    <div>
+                                        <img src="https://cdn.ymaws.com/staging-scip.site-ym.com/resource/resmgr/assets/members/joby_jacobs.jpeg" class="img-responsive img-fix-height" alt="Harvey Ranola">
+                                        <h3 class="text-center text-white mtop-20">
+                                            <strong>Joby Jacob</strong>
+                                        </h3>
+                                        <p class="text-center text-white fs-16">
+                                            <a href="https://www.linkedin.com/in/jobym-jacob/">Senior Onboarding Strategist, Customer Success</a>
+                                            <br>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <hr class="hr-gradient">
+                                        <p class="company-name text-white">NetBase Quid</p>
+                                        <!-- Change data-index accordingly -->
+                                        <button class="btn btn-scip btn-secure mbottom-0 scip-modal-btn" data-index="1"> WATCH HARVEY 
+                                            </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+<!--expert card section ends-->
